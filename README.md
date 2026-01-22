@@ -1,95 +1,101 @@
-# 🎨 Colour Craze - Mix Lab
 
 
-**Colour Craze** is an interactive color mixing game built with React. Players can choose an avatar, track their game progress, and experiment with colors to create target colors across multiple levels.
+# 🎨 Colour Craze
 
 
----
-
-
-## Features
-
-
-- 🖌️ **Avatar Selection:** Pick an avatar and save it to your profile.
-- 🎯 **Color Mixing Challenges:** Drag and drop colors to mix and match target colors.
-- 📊 **Statistics Tracking:** Keep track of games played, wins, losses, and current level.
-- 🔄 **Save Progress:** Player stats and levels are saved automatically to LocalStorage.
-- 🎵 **Audio Effects:** Background music, click sounds, and win sounds for immersive gameplay.
-- 🔒 **Profile Management:** Existing players can continue their progress or delete profiles.
+A fun and interactive color mixing game built with React! Players pick an avatar, mix colors to match target colors, and track their stats across levels.  
 
 
 ---
 
 
-## Installation
+## 📸 Screenshots
 
-
-1. Open a terminal and run the following commands:
-
-
-```bash
-# Clone the repository
-git clone git@github.com:asmien/Colour-Craze.git
-
-
-# Navigate into the project folder
-cd Colour-Craze
-
-
-# Install dependencies
-npm install
-
-
-# Start the development server
-npm start
-Open http://localhost:3000 in your browser to play the game.
-How to Play
-Home Page: Click Start to begin.
-Auth Page: Log in as an existing player or enter a new player name to create a profile.
-Avatar Page: Choose your favorite avatar. If you are an existing player, your previous avatar will load automatically.
-Game Page:
-Each level has a target color to create.
-Drag the colors from the palette into the bucket.
-Click Check Mix to see if you matched the target color.
-If successful, click Next Level to advance.
-If not, click Retry to try the level again.
-Statistics: Click the Stats button to view your total games played, wins, losses, and current level.
-Logout: Click Log Out to exit your session. Your progress will be saved automatically.
-Screenshots
-### Home Page
+### 1. Home Page
 ![Home Page](src/assets/screenshots/home.png)
 
 
-### Authentication Page
-![Authentication Page](src/assets/screenshots/auth.png)
+### 2. Authentication Page
+![Authentication Page](src/assets/screenshots/out.png)
 
 
-
-### Avatar Page
-![Avatar Page](src/assets/screenshots/avatar.png)
-
+### 3. Avatar Selection Page
+![Avatar Selection Page](src/assets/screenshots/avatar.png)
 
 
-### Game Page
+### 4. Game Page
 ![Game Page](src/assets/screenshots/game.png)
 
 
-### Results Page
-![Results Page S](src/assets/screenshots/results.png)
+### 5. Result Page (Passed)
+![Result Page - Passed](src/assets/screenshots/results.png)
 
 
-### Results Page
-![Results Page F](src/assets/screenshots/result.png)
+### 6. Result Page (Failed)
+![Result Page - Failed](src/assets/screenshots/result.png)
 
 
-### Stats Page
-![Stats Page](src/assets/screenshots/stats.png)
+### 7. Statistics Page
+![Statistics Page](src/assets/screenshots/stats.png)
 
-Built With
-React
-HTML5 / CSS3
-JavaScript (ES6)
-LocalStorage for player data
-GitHub for version control
-License
-This project is open-source. Feel free to use, modify, and share.
+---
+
+
+## 💻 Installation & Setup
+
+
+1. Clone the repository:
+
+
+```bash
+git clone https://github.com/your-username/Colour-Craze.git
+```
+2.Navigate into the project folder:
+```bash
+cd Colour-Craze
+```
+3.Install dependencies:
+```bash
+npm install
+```
+4.Start the app:
+```bash
+npm start
+```
+5.Your default browser should open the game automatically.
+
+## 🕹 How to Play
+Enter your name and pick an avatar on the Avatar Page.
+Drag the available colors into the bucket to mix them.
+Try to match the target color shown at the top.
+Click Check Mix to see if you matched the color correctly.
+If you succeed, advance to the next level.
+View your statistics anytime by clicking Show Stats.
+Log out by clicking the Log Out button.
+📊 Player Progress
+Player stats (played, won, lost) and current level are automatically saved.
+When you log back in with the same player name, you continue from where you left off.
+## 🎨 Features
+Avatar selection with sound effects
+Multiple levels with color mixing challenges
+Player statistics tracking (played, won, lost)
+Smooth background music and win sounds
+Save and continue progress
+## ⚙ Tech Stack
+React.js
+LocalStorage for player data persistence
+HTML, CSS, JavaScript
+## 📂 Project Structure
+
+
+```
+Colour-Craze/
+├─ public/
+├─ src/
+│  ├─ assets/
+│  ├─ components/
+│  ├─ styles/
+│  └─ App.js
+├─ package.json
+└─ README.md
+```
