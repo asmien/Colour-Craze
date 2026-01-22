@@ -16,7 +16,7 @@ A fun and interactive color mixing game built with React! Players pick an avatar
 
 
 ### 2. Authentication Page
-![Authentication Page](src/assets/screenshots/out.png)
+![Authentication Page](src/assets/screenshots/auth.png)
 
 
 ### 3. Avatar Selection Page
