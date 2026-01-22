@@ -1,11 +1,11 @@
-// src/components/AuthPage.js
+
 import React, { useState, useEffect } from "react";
 import "../styles/AuthPage.css";
-import authBg from "../assets/auth-background.jpeg"; // your chosen background
-import clickSoundFile from "../assets/click-sound.mp3"; // add your click sound file
-import bgMusicFile from "../assets/bg-music.mp3"; // add your background music file
+import authBg from "../assets/auth-background.jpeg"; 
+import clickSoundFile from "../assets/click-sound.mp3"; 
+import bgMusicFile from "../assets/bg-music.mp3"; 
 
-// Fun human verification question for kids
+// Fun human verification question 
 const question = {
   text: "Which animal is black and white?",
   options: ["Panda 🐼", "Elephant 🐘", "Lion 🦁", "Tiger 🐯"],
@@ -23,9 +23,9 @@ function AuthPage({ onSuccess }) {
   useEffect(() => {
     const bgMusic = new Audio(bgMusicFile);
     bgMusic.loop = true;
-    bgMusic.volume = 0.3; // adjust volume as needed
+    bgMusic.volume = 0.3; 
     bgMusic.play().catch(() => {
-      // auto-play might be blocked, that's okay
+      
     });
 
     return () => {
@@ -43,7 +43,7 @@ function AuthPage({ onSuccess }) {
   };
 
   const handleOptionClick = (opt) => {
-    clickSound.play(); // play click sound
+    clickSound.play(); 
     setSelected(opt);
     setError("");
   };

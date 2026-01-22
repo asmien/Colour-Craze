@@ -1,8 +1,8 @@
-/* src/styles/ResultPage.css */
+
 .result-page {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   padding: 20px;
-  position: relative;  /* keep relative so children z-index works */
+  position: relative;  
   text-align: center;
   min-height: 100vh;
   color: #2d3436;
@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  z-index: 10;          /* Ensure it’s above background */
+  z-index: 10;          
   position: relative;
 }
 
@@ -34,7 +34,7 @@
   cursor: pointer;
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  z-index: 20;          /* make sure it's above everything */
+  z-index: 20;          
   position: relative;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .stats-btn {
-  background-color: #ff9f1c; /* orange, playful */
+  background-color: #ff9f1c; 
   color: white;
 }
 

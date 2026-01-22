@@ -1,4 +1,4 @@
-/* src/styles/AuthPage.css */
+
 
 .auth-page {
   display: flex;
@@ -14,7 +14,7 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   max-width: 500px;
   width: 90%;
-  animation: fadeIn 1s ease-in-out forwards; /* stays visible */
+  animation: fadeIn 1s ease-in-out forwards; 
 }
 
 .auth-container h2 {

@@ -1,6 +1,6 @@
-// src/components/TargetColor.js
 
-// List of target colors (kid-friendly, 30 levels)
+
+// List of target colors ( 30 levels)
 export const MIXING_RULES = {
   purple: ["red", "blue"],
   orange: ["red", "yellow"],
@@ -35,7 +35,7 @@ export const MIXING_RULES = {
 };
 
 // Extra colors palette for each target (required + distractors)
-// Ensure the target itself is never included
+
 export const EXTRA_COLORS = {
   purple: ["red", "blue", "pink", "yellow"],
   orange: ["red", "yellow", "pink", "green"],

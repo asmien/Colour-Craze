@@ -1,4 +1,4 @@
-// src/components/HomePage.js
+
 import React, { useRef, useEffect } from "react";
 import "../styles/App.css";
 import bgMusicFile from "../assets/bg-music.mp3";

@@ -1,4 +1,4 @@
-// src/components/StatsPage.js
+
 import React from "react";
 import "../styles/StatsPage.css";
 import statsBg from "../assets/stats-background.jpeg";
@@ -17,7 +17,7 @@ function StatsPage({ stats, onBack }) {
     }
 
 
-    // Safely parse existing players
+    // parse existing players
     let players = {};
     try {
       const rawPlayers = localStorage.getItem("players");
@@ -40,17 +40,17 @@ function StatsPage({ stats, onBack }) {
     }
 
 
-    // Optional: clear the current player so app can redirect to home/auth
+    // clear the current player so app can redirect to home/auth
     localStorage.removeItem("currentPlayer");
 
 
-    // Reload the page to reflect the changes safely
+    // Reload the page to reflect the changes 
     window.location.href = "/"; // redirect to homepage
   };
 
 
   const handleLogout = () => {
-    // Just log out, keep stats intact
+    //  log out, 
     localStorage.removeItem("currentPlayer");
     window.location.href = "/"; // redirect to homepage
   };

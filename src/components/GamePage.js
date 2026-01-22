@@ -1,4 +1,4 @@
-// src/components/GamePage.js
+
 import React, { useState, useEffect, useRef } from "react";
 import "../styles/GamePage.css";
 import { EXTRA_COLORS, checkMix, MIXING_RULES } from "./TargetColor";

@@ -1,4 +1,4 @@
-/* src/styles/StatsPage.css */  
+
 
 
 .stats-page {  
@@ -36,7 +36,7 @@
 .stats-buttons {  
   display: flex;  
   gap: 20px;  
-  flex-wrap: wrap;      /* allow buttons to wrap to next line if needed */
+  flex-wrap: wrap;      
   justify-content: center;  
   margin-top: 20px;
 }  
@@ -60,7 +60,7 @@
 
 
 .logout-btn {
-  background: #ff4757;   /* red for logout */
+  background: #ff4757;  
   color: white;
 }  
 

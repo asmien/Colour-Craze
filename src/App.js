@@ -1,4 +1,4 @@
-// src/App.js
+
 import React, { useState, useEffect, useRef } from "react";
 import "./styles/App.css";
 import background from "./assets/background.jpg";
@@ -23,7 +23,7 @@ function App() {
   });
 
 
-  // Background music (global)
+  // Background music 
   const bgMusic = useRef(null);
   const musicStarted = useRef(false);
 

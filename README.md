@@ -3,7 +3,7 @@
 # 🎨 Colour Craze
 
 
-A fun and interactive color mixing game built with React! Players pick an avatar, mix colors to match target colors, and track their stats across levels.  
+A fun and interactive color mixing game built with React. Players pick an avatar, mix colors to match target colors, and track their stats across levels.  
 
 
 ---
@@ -72,19 +72,23 @@ Click Check Mix to see if you matched the color correctly.
 If you succeed, advance to the next level.
 View your statistics anytime by clicking Show Stats.
 Log out by clicking the Log Out button.
-📊 Player Progress
+
+## 📊 Player Progress
 Player stats (played, won, lost) and current level are automatically saved.
 When you log back in with the same player name, you continue from where you left off.
+
 ## 🎨 Features
-Avatar selection with sound effects
-Multiple levels with color mixing challenges
-Player statistics tracking (played, won, lost)
-Smooth background music and win sounds
-Save and continue progress
+Avatar selection with sound effects.
+Multiple levels with color mixing challenges.
+Player statistics tracking (played, won, lost).
+Smooth background music and win sounds.
+Save and continue progress.
+
 ## ⚙ Tech Stack
-React.js
-LocalStorage for player data persistence
-HTML, CSS, JavaScript
+React.js,
+LocalStorage for player data persistence,
+HTML, CSS, JavaScript.
+
 ## 📂 Project Structure
 
 

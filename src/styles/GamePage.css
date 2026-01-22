@@ -1,6 +1,4 @@
-/* ------------------------------
-   GamePage Full Styling
---------------------------------*/
+
 /* Player header at the top */
 .player-header {
   display: flex;
@@ -126,7 +124,7 @@
   box-shadow: 0 8px 16px rgba(0,0,0,0.4);
 }
 
-/* Color classes (vibrant cloud-like colors) */
+/* Color classes  */
 .color-slot.red { background: #ff3f34; }
 .color-slot.blue { background: #34ace0; }
 .color-slot.yellow { background: #ffdd59; }
@@ -198,7 +196,7 @@
 
 /* Check button */
 .check-btn {
-  margin-top: 0px;  /* space below dropped colors */
+  margin-top: 0px;  
   padding: 12px 25px;
   font-size: 20px;
   border-radius: 15px;

@@ -1,4 +1,4 @@
-// src/components/AvatarPage.js
+
 import React, { useState, useEffect } from "react";
 import "../styles/AvatarPage.css";
 import avatarBg from "../assets/avatar-background.jpeg";
@@ -130,7 +130,7 @@ function AvatarPage({ onComplete }) {
       <div className="avatar-container">
         <h2>Pick Your Avatar!</h2>
 
-        {/* Existing users list with delete */}
+        {/* delete existing users */}
         {existingPlayers.length > 0 && (
           <div className="existing-players">
             <p>Click your name to continue as an existing player:</p>

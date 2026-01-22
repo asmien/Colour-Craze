@@ -1,4 +1,4 @@
-// src/components/ResultPage.js
+
 import React, { useRef, useEffect } from "react";
 import "../styles/ResultPage.css";
 import resultBg from "../assets/result-background.jpeg";
