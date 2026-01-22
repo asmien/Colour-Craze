@@ -1,0 +1,69 @@
+/* src/styles/ResultPage.css */
+.result-page {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 20px;
+  position: relative;  /* keep relative so children z-index works */
+  text-align: center;
+  min-height: 100vh;
+  color: #2d3436;
+  text-shadow: 1px 1px #ffeaa7;
+}
+
+/* Make result box appear above background */
+.result-box {
+  z-index: 10;
+  position: relative;
+}
+
+/* Buttons container */
+.result-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  z-index: 10;          /* Ensure it’s above background */
+  position: relative;
+}
+
+/* Individual buttons */
+.result-buttons button {
+  margin: 10px;
+  padding: 14px 30px;
+  font-size: 22px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  z-index: 20;          /* make sure it's above everything */
+  position: relative;
+}
+
+.retry-btn {
+  background-color: #ff6b81;
+  color: white;
+}
+
+.retry-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.next-btn {
+  background-color: #34ace0;
+  color: white;
+}
+
+.next-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.stats-btn {
+  background-color: #ff9f1c; /* orange, playful */
+  color: white;
+}
+
+.stats-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}

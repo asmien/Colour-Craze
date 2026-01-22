@@ -1,0 +1,77 @@
+/* src/styles/StatsPage.css */  
+
+
+.stats-page {  
+  font-family: 'Comic Sans MS', cursive, sans-serif;  
+  text-align: center;  
+  color: #2d3436;  
+  text-shadow: 1px 1px #ffeaa7;  
+  position: relative;  
+}  
+
+
+/* Stats box styling */  
+.stats-box {  
+  background: rgba(255, 255, 255, 0.85);  
+  padding: 25px 40px;  
+  border-radius: 20px;  
+  margin-bottom: 30px;  
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);  
+}  
+
+
+.stats-box h1 {  
+  font-size: 36px;  
+  margin-bottom: 20px;  
+}  
+
+
+.stats-box p {  
+  font-size: 22px;  
+  margin: 10px 0;  
+}  
+
+
+/* Buttons styling */  
+.stats-buttons {  
+  display: flex;  
+  gap: 20px;  
+  flex-wrap: wrap;      /* allow buttons to wrap to next line if needed */
+  justify-content: center;  
+  margin-top: 20px;
+}  
+
+
+.stats-buttons button {  
+  padding: 12px 25px;  
+  font-size: 20px;  
+  border-radius: 15px;  
+  border: none;  
+  cursor: pointer;  
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);  
+  transition: transform 0.2s ease, box-shadow 0.2s ease;  
+}  
+
+
+.back-btn {  
+  background: #34ace0;  
+  color: white;  
+}  
+
+
+.logout-btn {
+  background: #ff4757;   /* red for logout */
+  color: white;
+}  
+
+
+.reset-btn {  
+  background: #ff6b81;  
+  color: white;  
+}  
+
+
+.stats-buttons button:hover {  
+  transform: scale(1.05);  
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);  
+}
